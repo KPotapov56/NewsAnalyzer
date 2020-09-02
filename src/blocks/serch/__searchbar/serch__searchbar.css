@@ -1,0 +1,10 @@
+.serch__searchbar {
+  position: relative;
+  width: 610px;
+  height: 64px;
+  background-color: #ffffff;
+  border-radius: 45px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto 80px auto;
+}

@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Сервис для анализа происходящих в мире событий">
+  <meta name="autor" content="Кирилл Потапов">
   <title>NewsAnalyzer</title>
+  <link rel="shortcut icon" href="../src/images/favicon.png" type="image/png">
 </head>
+
 <body>
-  <header class="header">
-    <h1 class="heading">News Analyzer</h1>
-  <header>
+  <page>
+    <header class="header">
+      <h1 class="header__project-name">NewsAnalyzer</h1>
+      <ul class="header__menu">
+        <li class="header__menu-item">Главная</li>
+        <li class="header__menu-item">О проекте</li>
+      </ul>
+    </header>
+    <article class="serch">
+      <h1 class="serch__title">Что в мире творится?</h1>
+      <h2 class="serch__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за
+        прошедшую неделю.</h2>
+      <form class="serch__searchbar">
+        <input type="search" name="input" class="search__input">
+        <button type="submit" class="search__button" disabled="disabled">Искать</button>
+      </form>
+    </article>
+  </page>
 </body>
+
 </html>

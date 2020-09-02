@@ -1,0 +1,15 @@
+@import url("./__subtitle/serch__subtitle.css");
+@import url("./__title/serch__title.css");
+@import url("./__searchbar/serch__searchbar.css");
+@import url("./__input/search__input.css");
+@import url("./__button/search__button.css");
+
+.serch {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  background-image: url(/src/images/georgia-de-lotz-unsplash.png);  
+  max-width: 1440px;
+}
