@@ -1,4 +1,5 @@
 .header__project-name {
+  text-decoration:none;
   font-family: robotoslab;
   font-style: normal;
   font-weight: bold;

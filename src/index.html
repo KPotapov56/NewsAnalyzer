@@ -13,10 +13,10 @@
 <body>
   <page>
     <header class="header">
-      <h1 class="header__project-name">NewsAnalyzer</h1>
+      <a href="#home" class="header__project-name">NewsAnalyzer</a>
       <ul class="header__menu">
-        <li class="header__menu-item">Главная</li>
-        <li class="header__menu-item">О проекте</li>
+        <li class="header__item"><a href="#home" class="header__link active">Главная</a></li>
+        <li class="header__item"><a href="#" class="header__link">О проекте</a></li>
       </ul>
     </header>
     <article class="serch">
@@ -24,7 +24,7 @@
       <h2 class="serch__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за
         прошедшую неделю.</h2>
       <form class="serch__searchbar">
-        <input type="search" name="input" class="search__input">
+        <input type="text" name="input" class="search__input" placeholder="Введите тему новости">
         <button type="submit" class="search__button" disabled="disabled">Искать</button>
       </form>
     </article>

@@ -1,8 +1,10 @@
 @import url("./__project-name/header__project-name.css");
 @import url("./__menu/header__menu.css");
-@import url("./__menu-item/header__menu-item.css");
+@import url("./__menu-item/header__link.css");
+@import url("./__item/header__item.css");
 
 .header {
+  background-image: url(/src/images/bg.png);
   max-width: 1440px;
   position: absolute;
   left: 0;

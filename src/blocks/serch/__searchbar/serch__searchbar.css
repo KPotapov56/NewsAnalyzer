@@ -1,5 +1,7 @@
 .serch__searchbar {
   position: relative;
+  display: flex;
+  flex-direction: row;
   width: 610px;
   height: 64px;
   background-color: #ffffff;
