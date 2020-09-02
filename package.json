@@ -1,0 +1,27 @@
+{
+  "name": "newsanalyzer",
+  "version": "0.0.1",
+  "description": "News analyzer by keyword",
+  "main": "./src/scripts/index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KPotapov56/NewsAnalyzer.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "JavaScript",
+    "Webpack"
+  ],
+  "author": "Kirill Potapov <kpotapov56@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KPotapov56/NewsAnalyzer/issues"
+  },
+  "homepage": "https://github.com/KPotapov56/NewsAnalyzer#readme"
+}
