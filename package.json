@@ -18,10 +18,12 @@
     "css-loader": "^4.2.2",
     "cssnano": "^4.1.10",
     "file-loader": "^6.1.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.4.1",
     "image-webpack-loader": "^6.0.0",
     "mini-css-extract-plugin": "^0.11.0",
     "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "path": "^0.12.7",
     "postcss-loader": "^3.0.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
@@ -30,7 +32,9 @@
     "webpack-md5-hash": "0.0.6"
   },
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development --open --watch",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -47,5 +51,5 @@
   "bugs": {
     "url": "https://github.com/KPotapov56/NewsAnalyzer/issues"
   },
-  "homepage": "https://github.com/KPotapov56/NewsAnalyzer#readme"
+  "homepage": "https://kpotapov56.github.io/NewsAnalyzer/"
 }
