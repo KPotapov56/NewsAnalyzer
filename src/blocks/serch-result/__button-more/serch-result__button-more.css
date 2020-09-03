@@ -1,0 +1,16 @@
+.serch-result__button-more {
+  background: #FFFFFF;
+  border-radius: 80px;
+  width: 288px;
+  height: 64px;
+  border: none;
+  margin: 64px auto 80px auto;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;  
+  text-align: center;
+  color: #1A1B22;
+
+}

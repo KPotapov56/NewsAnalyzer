@@ -1,0 +1,8 @@
+.serch-result__cardlist {
+  max-width: 836px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-gap: 16px 16px;
+  justify-content: center;
+}

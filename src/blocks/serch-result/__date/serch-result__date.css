@@ -1,0 +1,10 @@
+.serch-result__date {
+  font-family: sourcesanspro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  color: #B6BCBF;
+  margin: 20px auto 12px 24px;
+}

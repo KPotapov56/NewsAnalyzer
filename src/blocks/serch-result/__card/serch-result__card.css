@@ -1,0 +1,8 @@
+.serch-result__card {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  height: 576px;
+  background-color: #ffffff;
+  border-radius: 16px;
+}

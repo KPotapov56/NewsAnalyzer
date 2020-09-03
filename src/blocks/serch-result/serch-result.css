@@ -1,0 +1,20 @@
+@import url(./__header/serch-result__header.css);
+@import url(./__title/serch-result__title.css);
+@import url(./__analytics/serch-result__analytics.css);
+@import url(./__cardlist/serch-result__cardlist.css);
+@import url(./__card/serch-result__card.css);
+@import url(./__image/serch-result__image.css);
+@import url(./__date/serch-result__date.css);
+@import url(./__subtitle/serch-result__subtitle.css);
+@import url(./__news/serch-result__news.css);
+@import url(./__source/serch-result__source.css);
+@import url(./__button-more/serch-result__button-more.css);
+
+.serch-result {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #F5F6F7;
+}
