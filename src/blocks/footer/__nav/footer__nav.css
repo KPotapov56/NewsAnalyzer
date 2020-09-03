@@ -1,0 +1,7 @@
+.footer__nav {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  max-width: 406px;  
+  margin: 30px auto 28px auto;
+}

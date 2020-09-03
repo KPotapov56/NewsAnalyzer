@@ -1,10 +1,10 @@
-.serch__subtitle {
-  max-width: 608px;
+.footer__nav-link {
+  text-decoration: none;
   font-family: roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
-  color: #FFFFFF;
-  margin: 0 auto 64px auto;
+  text-align: center;
+  color: #1A1B22;
 }

@@ -2,7 +2,9 @@
 @import url(../vendor/fonts.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/serch/serch.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/about-author/about-author.css);
 
-/* header, h1, h2, h3, div, article, li, ul, form {
+/* header, h1, h2, h3, div, article, li, ul, form, img {
   border: 1px solid blue;
 } */
