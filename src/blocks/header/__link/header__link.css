@@ -7,19 +7,10 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
-  color: #FFFFFF;
   margin-left: 0;
   padding-bottom: 23px;
 }
 
 .header__link:first-child {
   margin-right: 34px;
-}
-
-.header__link:hover {
-  border-bottom: 3px solid #FFFFFF;
-}
-
-.header__link.active {
-  border-bottom: 3px solid #FFFFFF;
 }
