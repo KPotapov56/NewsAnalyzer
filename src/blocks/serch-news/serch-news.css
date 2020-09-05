@@ -1,0 +1,12 @@
+@import url(./__loader/serch-news__loader.css);
+@import url(./__text/serch-news__text.css);
+
+.serch-news {
+  background-color: #F5F6F7;
+  max-width: 1440px;
+  margin: 0 auto;
+  /* display: none; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -5,6 +5,8 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/about-author/about-author.css);
 @import url(../blocks/serch-result/serch-result.css);
+@import url(../blocks/serch-news/serch-news.css);
+@import url(../blocks/nothing-found/nothing-found.css);
 
 /* header, h1, h2, h3, div, article, li, ul, form, img {
   border: 1px solid blue;
