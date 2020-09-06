@@ -6,10 +6,14 @@ const WebpackMd5Hash = require('webpack-md5-hash');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = {
-  entry: path.resolve(__dirname, 'src/scripts/index.js'),
+  entry: {
+    index: path.resolve(__dirname, 'src/scripts/index.js'),
+    about: path.resolve(__dirname, 'src/scripts/about.js'),
+    statics: path.resolve(__dirname, 'src/scripts/statics.js')
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'newsanalyzer.[chunkhash].js'
+    filename: '[name].[chunkhash].js'
   },
   module: {
     rules: [{
@@ -38,7 +42,19 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: './src/index.html'
+      template: './src/index.html',
+      chunks: ['index'],
+      filename: 'index.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/about.html',
+      chunks: ['about'],
+      filename: 'about.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/statics.html',
+      chunks: ['statics'],
+      filename: 'statics.html'
     }),
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css'
