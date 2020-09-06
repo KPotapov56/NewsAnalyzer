@@ -1,6 +1,5 @@
 .header__menu {
   display: flex;
   flex-wrap: wrap;
-  margin: 30px 101px 26px auto;
-  overflow: hidden;
+  margin: 30px 101px 0 auto;
 }

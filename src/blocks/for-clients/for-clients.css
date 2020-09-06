@@ -1,0 +1,8 @@
+@import url('./__title/for-clients__title.css');
+@import url('./__text/for-clients__text.css');
+
+.for-clients {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 94px;
+}
