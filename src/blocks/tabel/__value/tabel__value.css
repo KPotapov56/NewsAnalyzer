@@ -1,0 +1,5 @@
+.tabel__value {
+  display: flex;
+  flex-direction: row;
+  margin: 48px auto 0 104px;
+}

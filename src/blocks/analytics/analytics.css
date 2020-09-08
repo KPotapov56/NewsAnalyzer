@@ -1,4 +1,7 @@
 @import url('./__current-page/analytics__current-page.css');
+@import url('./__link-to-main/analytics__link-to-main.css');
+@import url('./__title/analytics__title.css');
+@import url('./__result/analytics__result.css');
 
 .analytics {
   max-width: 1440px;

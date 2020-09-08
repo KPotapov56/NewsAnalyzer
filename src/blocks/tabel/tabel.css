@@ -1,0 +1,18 @@
+@import url('./__title/tabel__title.css');
+@import url('./__diagram/tabel__diagram.css');
+@import url('./__scale/tabel__scale.css');
+@import url('./__scale-index/tabel__scale-index.css');
+@import url('./__value/tabel__value.css');
+@import url('./__value-text/tabel__value-text.css');
+@import url('./__item/tabel__item.css');
+@import url('./__date/tabel__date.css');
+@import url('./__rectangle/tabel__rectangle.css');
+@import url('./__percent/tabel__percent.css');
+
+.tabel {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #F5F6F7;
+  display: flex;
+  flex-direction: column;
+}

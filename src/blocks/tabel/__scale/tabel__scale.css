@@ -1,0 +1,10 @@
+.tabel__scale {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1128px;
+  margin: 16px 104px 0 208px;
+}
+.tabel__scale:last-child {
+margin-bottom: 80px;
+}
