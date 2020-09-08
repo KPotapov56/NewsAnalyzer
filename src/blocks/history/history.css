@@ -1,0 +1,24 @@
+@import url('./__header/history__header.css');
+@import url('./__title/history__title.css');
+@import url('./__link/history__link.css');
+@import url('./__cardlist/history__cardlist.css');
+@import url('./__card/history__card.css');
+@import url('./__date/history__date.css');
+@import url('./__author/history__author.css');
+@import url('./__avatar/history__avatar.css');
+@import url('./__author-info/history__author-info.css');
+@import url('./__author-name/history__author-name.css');
+@import url('./__author-mail/history__author-mail.css');
+@import url('./__comment/history__comment.css');
+@import url('./__page-control/history__page-control.css');
+@import url('./__slider-control-left/history__slider-control-left.css');
+@import url('./__slider-control-right/history__slider-control-right.css');
+
+.history {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #F5F6F7;
+  display: flex;
+  flex-direction: column;
+}

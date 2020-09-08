@@ -9,7 +9,7 @@ module.exports = {
   entry: {
     index: path.resolve(__dirname, 'src/scripts/index.js'),
     about: path.resolve(__dirname, 'src/scripts/about.js'),
-    statics: path.resolve(__dirname, 'src/scripts/statics.js')
+    statics: path.resolve(__dirname, 'src/scripts/statistics.js')
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -52,9 +52,9 @@ module.exports = {
       filename: 'about.html'
     }),
     new HtmlWebpackPlugin({
-      template: './src/statics.html',
+      template: './src/statistics.html',
       chunks: ['statics'],
-      filename: 'statics.html'
+      filename: 'statistics.html'
     }),
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css'

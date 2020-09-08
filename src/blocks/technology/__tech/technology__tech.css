@@ -1,0 +1,15 @@
+.technology__tech {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  height: 153px;
+  margin: 93px 40px 88px 0;
+}
+
+.technology__tech:last-child {
+  margin-right: auto;
+}
+
+.technology__tech:first-child {
+  margin-left: 178px;
+}

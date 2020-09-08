@@ -1,0 +1,5 @@
+.history__header {
+  display: flex;
+  flex-direction: row;
+  margin: 72px 104px 0 104px;
+}

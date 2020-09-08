@@ -1,0 +1,8 @@
+@import url('./__current-page/analytics__current-page.css');
+
+.analytics {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}

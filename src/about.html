@@ -39,7 +39,26 @@
     <p class="for-clients__text">Проект был проверен экспертами Яндекс.Практикума. Если вашему бизнесу нужен сайт, мы
       рекомендуем обратиться к
       этому студенту.</p>
-    </h1>
+  </article>
+  <article class="technology">
+    <h2 class="technology__title">Используемые
+      технологии</h2>
+    <div class="technology__tech">
+      <h3 class="technology__subtitle">HTML</h3>
+      <img src="<%=require('./images/HTML.svg')%>" alt="" class="technology__logo">
+    </div>
+    <div class="technology__tech">
+      <h3 class="technology__subtitle">CSS</h3>
+      <img src="<%=require('./images/CSS.svg')%>" alt="" class="technology__logo">
+    </div>
+    <div class="technology__tech">
+      <h3 class="technology__subtitle">Java Script</h3>
+      <img src="<%=require('./images/js.png')%>" alt="" class="technology__logo">
+    </div>
+    <div class="technology__tech">
+      <h3 class="technology__subtitle">Webpack</h3>
+      <img src="<%=require('./images/webpack.png')%>" alt="" class="technology__logo">
+    </div>
   </article>
   <article class="about-author">
     <img src="<%=require('./images/avatar.png')%>" alt="аватар" class="about-author__avatar">
@@ -51,6 +70,54 @@
         Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь
         потенциальным заказчикам.</p>
     </div>
+  </article>
+  <article class="history">
+    <img src="<%=require('./images/slider-control-left.svg')%>" alt="" class="history__slider-control-left">
+    <img src="<%=require('./images/slider-control-right.svg')%>" alt="" class="history__slider-control-right">
+    <div class="history__header">
+      <h2 class="history__title">История коммитов из GitHub</h2>
+      <a href="https://github.com/KPotapov56/NewsAnalyzer" target="blank" class="history__link">Открыть в Github &#62;</a>
+    </div>
+    <div class="history__cardlist">
+      <div class="history__card">
+        <p class="history__date">14 августа, 2019</p>
+        <div class="history__author">
+          <img src="<%=require('./images/a-dolinin.png')%>" alt="" class="history__avatar">
+          <div class="history__author-info">
+            <p class="history__author-name">Антон Долинин</p>
+            <p class="history__author-mail">anton@yandex.ru</p>
+          </div>
+        </div>
+        <p class="history__comment">Emmet (formerly Zen Coding) is a web-
+          developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
+      </div>
+      <div class="history__card">
+        <p class="history__date">14 августа, 2019</p>
+        <div class="history__author">
+          <img src="<%=require('./images/m-fedorova.png')%>" alt="" class="history__avatar">
+          <div class="history__author-info">
+            <p class="history__author-name">Мария Фёдорова</p>
+            <p class="history__author-mail">mariiifed@yandex.ru</p>
+          </div>
+        </div>
+        <p class="history__comment">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open   Tools >
+          Plugins > Available plugins   and find and install Emmet plugin.</p>
+      </div>
+      <div class="history__card">
+        <p class="history__date">14 августа, 2019</p>
+        <div class="history__author">
+          <img src="<%=require('./images/i-ivanova.png')%>" alt="" class="history__avatar">
+          <div class="history__author-info">
+            <p class="history__author-name">Инга Иванова</p>
+            <p class="history__author-mail">ingaiva@yandex.ru</p>
+          </div>
+        </div>
+        <p class="history__comment">With Emmet, you can type CSS-like expressions 
+          that can be dynamically parsed, and produce 
+          output depending on what you type in the abb...</p>
+      </div>
+    </div>
+    <img src="<%=require('./images/page-control.svg')%>" alt="" class="history__page-control">
   </article>
   <footer class="footer">
     <p class="footer__copyright">&#169; 2020 Кирилл Потапов</p>

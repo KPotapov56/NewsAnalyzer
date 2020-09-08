@@ -1,0 +1,5 @@
+.history__cardlist {
+  display: flex;
+  flex-direction: row;
+  margin: 64px 104px 0 104px;
+}

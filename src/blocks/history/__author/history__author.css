@@ -1,0 +1,4 @@
+.history__author {
+  display: flex;
+  flex-direction: row;
+}
