@@ -1,0 +1,11 @@
+.serch__container {
+  display: flex;
+  flex-direction: column;
+  margin: 160px auto 64px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .serch__container {
+    margin: 104px auto 24px auto;
+  }
+}

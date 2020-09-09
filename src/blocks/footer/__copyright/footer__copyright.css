@@ -7,3 +7,9 @@
   color: #B6BCBF;
   margin: 33px auto 25px 104px;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer__copyright {
+    margin-left: 40px;
+  }
+}

@@ -9,3 +9,10 @@
   flex-direction: row;
   margin: 0 auto 80px auto;
 }
+
+@media screen and (max-width: 768px) {
+	.serch__searchbar {
+    max-width: 452px;
+    height: 56px;
+  }
+}

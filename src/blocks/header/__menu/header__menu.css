@@ -3,3 +3,9 @@
   flex-wrap: wrap;
   margin: 30px 101px 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+	.header__menu {
+    margin: 22px 42px 0 auto;
+  }
+}

@@ -6,5 +6,12 @@
   font-size: 20px;
   line-height: 24px;
   color: #FFFFFF;
-  margin: 30px auto 26px 104px;
+  margin: 30px auto 0 104px;
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+	.header__project-name {
+    margin: 22px auto 0 40px;
+  }
 }

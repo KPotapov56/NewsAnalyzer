@@ -4,3 +4,9 @@
   list-style-type: none;
   margin: 30px 106px 30px auto;
 }
+
+@media screen and (max-width: 1024px) {
+	.footer__social {
+    margin-right: 22px;
+  }
+}
