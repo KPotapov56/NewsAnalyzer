@@ -19,25 +19,25 @@
         <li class="header__item"><a href="about.html" class="header__link">О проекте</a></li>
       </ul>
     </header>
-    <section class="serch">
+    <article class="serch">
       <h1 class="serch__title">Что в мире творится?</h1>
       <h2 class="serch__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за
         прошедшую неделю.</h2>
       <form class="serch__searchbar">
         <input type="text" name="input" class="search__input" placeholder="Введите тему новости">
-        <button type="submit" class="search__button" disabled="disabled">Искать</button>
+        <button type="submit" class="search__button">Искать</button>
       </form>
-    </section>
-    <section class="nothing-found">
+    </article>
+    <article class="nothing-found">
       <img src="<%=require('./images/not-found_v1.svg')%>" alt="" class="nothing-found__image">
       <h1 class="nothing-found__title">Ничего не найдено</h1>
       <h2 class="nothing-found__subtitle">К сожалению по вашему запросу<br /> ничего не найдено.</h2>
-    </section>
-    <section class="serch-news">
+    </article>
+    <article class="serch-news">
       <img src="<%=require('./images/Ellipse.png')%>" alt="" class="serch-news__loader">
       <p class="serch-news__text">Идет поиск новостей...</p>
-    </section>
-    <section class="serch-result">
+    </article>
+    <article class="serch-result">
       <div class="serch-result__header">
         <h1 class="serch-result__title">Результаты поиска</h1>
         <a href="statistics.html" class="serch-result__analytics">Посмотреть аналитику &#62;</a>
@@ -94,10 +94,11 @@
           <p class="serch-result__source">Медиазона</p>
         </div>
       </div>
-      <button class="serch-result__button-more">Показать еще</button>
-    </section>
+      <button type="button" class="serch-result__button-more">Показать еще</button>
+    </article>
     <article class="about-author">
-      <img src="<%=require('./images/avatar.png')%>" alt="аватар" class="about-author__avatar">
+      <div class="about-author__avatar-container">
+        <img src="<%=require('./images/avatar.png')%>" alt="аватар" class="about-author__avatar"></div>
       <div class="about-author__description">
         <h1 class="about-author__title">Об авторе</h1>
         <p class="about-author__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы

@@ -1,8 +1,7 @@
 .serch-result__cardlist {
-  max-width: 836px;
-  margin: 0 auto;
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 400px);
+  grid-template-columns: repeat(auto-fill, 400px);
   grid-gap: 16px 16px;
   justify-content: center;
 }

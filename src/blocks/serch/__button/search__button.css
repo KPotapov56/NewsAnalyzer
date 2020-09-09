@@ -13,3 +13,12 @@
   font-size: 18px;
   cursor: pointer;
 }
+
+.search__button:hover {
+  background: #347EFF;
+}
+
+.search__button:focus {
+  background: #2A65CC;
+  outline: none;
+}

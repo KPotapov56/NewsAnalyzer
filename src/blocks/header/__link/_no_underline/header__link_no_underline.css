@@ -1,0 +1,8 @@
+.header__link_no_underline {
+  color: #B6BCBF;
+}
+
+.header__link_no_underline:hover {
+  color: #1A1B22;
+  border-bottom: none;
+}
