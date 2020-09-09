@@ -7,3 +7,11 @@
   color: #1A1B22;
   margin: 80px auto 64px 104px;
 }
+
+@media screen and (max-width: 768px) {
+  .serch-result__title {
+    font-size: 30px;
+    line-height: 34px;
+    margin: 40px auto 32px 40px;
+  }
+}

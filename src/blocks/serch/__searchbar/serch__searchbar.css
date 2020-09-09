@@ -14,5 +14,6 @@
 	.serch__searchbar {
     max-width: 452px;
     height: 56px;
+    margin-bottom: 48px;
   }
 }

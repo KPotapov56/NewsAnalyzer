@@ -61,7 +61,8 @@
     </div>
   </article>
   <article class="about-author">
-    <img src="<%=require('./images/avatar.png')%>" alt="аватар" class="about-author__avatar">
+    <div class="about-author__avatar-container">
+      <img src="<%=require('./images/avatar.png')%>" alt="аватар" class="about-author__avatar"></div>
     <div class="about-author__description">
       <h1 class="about-author__title">Об авторе</h1>
       <p class="about-author__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы
@@ -76,7 +77,8 @@
     <img src="<%=require('./images/slider-control-right.svg')%>" alt="" class="history__slider-control-right">
     <div class="history__header">
       <h2 class="history__title">История коммитов из GitHub</h2>
-      <a href="https://github.com/KPotapov56/NewsAnalyzer" target="blank" class="history__link">Открыть в Github &#62;</a>
+      <a href="https://github.com/KPotapov56/NewsAnalyzer" target="blank" class="history__link">Открыть в Github
+        &#62;</a>
     </div>
     <div class="history__cardlist">
       <div class="history__card">
@@ -100,8 +102,9 @@
             <p class="history__author-mail">mariiifed@yandex.ru</p>
           </div>
         </div>
-        <p class="history__comment">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open   Tools >
-          Plugins > Available plugins   and find and install Emmet plugin.</p>
+        <p class="history__comment">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open
+          Tools >
+          Plugins > Available plugins and find and install Emmet plugin.</p>
       </div>
       <div class="history__card">
         <p class="history__date">14 августа, 2019</p>
@@ -112,8 +115,8 @@
             <p class="history__author-mail">ingaiva@yandex.ru</p>
           </div>
         </div>
-        <p class="history__comment">With Emmet, you can type CSS-like expressions 
-          that can be dynamically parsed, and produce 
+        <p class="history__comment">With Emmet, you can type CSS-like expressions
+          that can be dynamically parsed, and produce
           output depending on what you type in the abb...</p>
       </div>
     </div>
@@ -128,10 +131,12 @@
           class="footer__nav-link">Яндекс.Практикум</a></li>
     </ul>
     <ul class="footer__social">
-      <li class="footer__social-item"><a href="https://github.com/KPotapov56/NewsAnalyzer" target="blank" class="footer__social-link"><img src="<%=require('./images/gh.svg')%>"
-            alt="" class="footer__social-icon"></a></li>
-      <li class="footer__social-item"><a href="https://www.facebook.com/" target="blank" class="footer__social-link"><img src="<%=require('./images/fb.svg')%>"
-            alt="" class="footer__social-icon"></a></li>
+      <li class="footer__social-item"><a href="https://github.com/KPotapov56/NewsAnalyzer" target="blank"
+          class="footer__social-link"><img src="<%=require('./images/gh.svg')%>" alt="" class="footer__social-icon"></a>
+      </li>
+      <li class="footer__social-item"><a href="https://www.facebook.com/" target="blank"
+          class="footer__social-link"><img src="<%=require('./images/fb.svg')%>" alt="" class="footer__social-icon"></a>
+      </li>
     </ul>
   </footer>
 </body>

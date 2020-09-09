@@ -11,3 +11,9 @@
   color: #1A1B22;
   margin: 94px 104px 72px auto;
 }
+
+@media screen and (max-width: 768px) {
+  .serch-result__analytics {
+    margin: 48px 66px 34px auto;
+  }
+}
