@@ -8,6 +8,7 @@
 @import url('./__date/tabel__date.css');
 @import url('./__rectangle/tabel__rectangle.css');
 @import url('./__percent/tabel__percent.css');
+@import url('./__fig/tabel__fig.css');
 
 .tabel {
   max-width: 1440px;

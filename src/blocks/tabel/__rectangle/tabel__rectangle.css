@@ -1,6 +1,6 @@
 .tabel__rectangle {
-  flex: 1;
+  display: flex;
+  align-items: center;
   background: #2F71E5;
   height: 24px;
-  width: 15%;
 }
