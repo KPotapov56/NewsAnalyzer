@@ -6,3 +6,10 @@
   background-color: #ffffff;
   border-radius: 16px;
 }
+
+@media screen and (max-width: 768px) {
+  .serch-result__card {
+    max-width: 224px;
+    height: 420px;
+  }
+}

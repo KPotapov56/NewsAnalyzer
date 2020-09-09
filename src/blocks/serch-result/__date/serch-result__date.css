@@ -8,3 +8,9 @@
   color: #B6BCBF;
   margin: 20px auto 12px 24px;
 }
+
+@media screen and (max-width: 768px) {
+  .serch-result__date {
+    margin: 16px auto 12px 16px;
+  }
+}

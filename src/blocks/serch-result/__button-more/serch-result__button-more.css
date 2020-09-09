@@ -9,11 +9,19 @@
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 24px;  
+  line-height: 24px;
   text-align: center;
   color: #1A1B22;
 }
 
 .serch-result__button-more:hover {
   opacity: 0.9;
+}
+
+@media screen and (max-width: 768px) {
+  .serch-result__button-more {
+    width: 240px;
+    height: 56px;
+    margin: 22px auto 40px auto;
+  }
 }

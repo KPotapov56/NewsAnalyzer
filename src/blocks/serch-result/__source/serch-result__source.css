@@ -9,3 +9,9 @@
   color: #B6BCBF;
   margin: auto auto 24px 24px;
 }
+
+@media screen and (max-width: 768px) {
+  .serch-result__source {
+    margin: auto auto 16px 16px;
+  }
+}
