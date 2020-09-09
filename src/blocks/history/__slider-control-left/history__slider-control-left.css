@@ -3,3 +3,9 @@
   top: 50%;
   left: 4px;
 }
+
+@media screen and (max-width: 768px) {
+  .history__slider-control-left {
+    display: none;
+  }
+}

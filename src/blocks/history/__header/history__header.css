@@ -3,3 +3,9 @@
   flex-direction: row;
   margin: 72px 104px 0 104px;
 }
+
+@media screen and (max-width: 768px) {
+  .history__header {
+    margin: 40px 40px 0 40px;
+  }
+}

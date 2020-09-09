@@ -3,3 +3,9 @@
   flex-direction: row;
   margin: 64px 104px 0 104px;
 }
+
+@media screen and (max-width: 768px) {
+  .history__cardlist {
+    margin: 40px auto 0 32px;
+  }
+}

@@ -12,3 +12,14 @@
 .history__card:last-child {
   margin-right: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .history__card {
+    width: 336px;
+    height: 242px;
+    margin-right: 8px;
+  }
+  .history__card:last-child {
+    margin-right: 0;
+  }
+}

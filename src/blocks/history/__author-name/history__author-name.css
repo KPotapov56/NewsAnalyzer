@@ -7,3 +7,9 @@
   color: #1A1B22;
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .history__author-name {
+    font-size: 20px;
+  }
+}

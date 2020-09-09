@@ -1,4 +1,5 @@
 .history__comment {
+  overflow: hidden;
   font-family: roboto;
   font-style: normal;
   font-weight: normal;
