@@ -8,3 +8,10 @@
   max-width: 815px;
   margin: 24px auto 0 104px;
 }
+
+@media screen and (max-width: 768px) {
+  .for-clients__text {
+    max-width: 688px;
+    margin: 16px auto 0 auto;
+  }
+}

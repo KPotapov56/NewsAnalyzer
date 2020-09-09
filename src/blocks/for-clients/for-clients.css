@@ -6,3 +6,9 @@
   margin: 0 auto;
   padding-bottom: 94px;
 }
+
+@media screen and (max-width: 768px) {
+  .for-clients {
+    padding-bottom: 26px;
+  }
+}
