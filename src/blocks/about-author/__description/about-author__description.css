@@ -10,3 +10,9 @@
     margin: auto 104px auto auto;
   }
 }
+
+@media screen and (max-width: 768px) {
+	.about-author__description {
+    margin: auto 40px auto auto;
+  }
+}

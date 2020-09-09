@@ -1,5 +1,12 @@
 .about-author__avatar-container {
   display: flex;
-  width: 100%;
+  max-width: 464px;
   margin: 80px 56px 80px 104px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-author__avatar-container {
+    max-width: 232px;
+    margin: 61px 32px 61px 40px;
+  }
 }

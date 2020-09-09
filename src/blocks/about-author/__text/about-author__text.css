@@ -4,6 +4,13 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
+  max-width: 600px;
   color: #1A1B22;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .about-author__text {
+    max-width: 424px;
+  }
 }

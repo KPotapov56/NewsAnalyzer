@@ -1,5 +1,6 @@
 .serch-result__news {
   overflow:hidden;
+  text-overflow: ellipsis;
   font-family: roboto;
   font-style: normal;
   font-weight: normal;
