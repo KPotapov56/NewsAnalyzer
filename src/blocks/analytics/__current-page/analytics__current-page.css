@@ -7,3 +7,10 @@
   color: #B6BCBF;
   margin: 40px auto 0 104px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .analytics__current-page {
+    margin: 32px auto 0 40px;
+  }
+}

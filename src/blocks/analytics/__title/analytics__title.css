@@ -7,3 +7,9 @@
   color: #1A1B22;
   margin: 80px auto 24px 104px;
 }
+
+@media screen and (max-width: 768px) {
+  .analytics__title {
+    margin: 64px auto 24px 40px; 
+  }
+}

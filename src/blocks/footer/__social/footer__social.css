@@ -3,6 +3,7 @@
   flex-direction: row;
   list-style-type: none;
   margin: 30px 106px 30px auto;
+  padding: 0;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,4 +1,5 @@
-.serch-result__card {
+.serch-result__card {  
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   max-width: 400px;

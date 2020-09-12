@@ -5,6 +5,18 @@
   max-width: 1128px;
   margin: 16px 104px 0 208px;
 }
+
 .tabel__scale:last-child {
-margin-bottom: 80px;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .tabel__scale {
+    margin: 16px 43px 0 140px;
+  }
+
+  .tabel__scale:last-child {
+    margin-bottom: 40px;
+    margin-top: 0;
+  }
 }

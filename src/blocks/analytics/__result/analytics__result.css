@@ -11,3 +11,12 @@
 .analytics__result:last-child {
   margin-bottom: 80px;
 }
+
+@media screen and (max-width: 768px) {
+  .analytics__result {
+    margin-left: 40px;
+  }
+  .analytics__result:last-child {
+    margin-bottom: 40px;
+  }
+}

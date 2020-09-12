@@ -1,6 +1,9 @@
 .serch-result__news {
-  overflow:hidden;
-  text-overflow: ellipsis;
+  /* text-overflow: ellipsis; */
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
   font-family: roboto;
   font-style: normal;
   font-weight: normal;
@@ -14,6 +17,6 @@
 @media screen and (max-width: 768px) {
   .serch-result__news {
     max-width: 192px;
-    max-height: 88px;
+    -webkit-line-clamp: 4;
   }
 }

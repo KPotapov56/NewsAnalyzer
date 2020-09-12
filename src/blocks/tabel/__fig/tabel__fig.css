@@ -1,4 +1,6 @@
 .tabel__fig {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   flex: 1;
 }

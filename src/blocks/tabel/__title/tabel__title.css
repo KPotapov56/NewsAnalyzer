@@ -7,3 +7,9 @@
   color: #1A1B22;
   margin: 80px auto 0 104px;
 }
+
+@media screen and (max-width: 768px) {
+  .tabel__title {
+    margin: 40px auto 0 40px;
+  }
+}

@@ -1,4 +1,5 @@
 .tabel__date {
+  vertical-align:bottom;
   width: 104px;
   font-family: roboto;
   font-style: normal;
@@ -6,4 +7,5 @@
   font-size: 18px;
   line-height: 80px;
   color: #1A1B22;
+  margin: 0;
 }

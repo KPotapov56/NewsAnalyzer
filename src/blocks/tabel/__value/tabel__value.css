@@ -3,3 +3,9 @@
   flex-direction: row;
   margin: 48px auto 0 104px;
 }
+
+@media screen and (max-width: 768px) {
+  .tabel__value {
+    margin: 48px auto 0 40px;
+  }
+}
