@@ -19,9 +19,9 @@
     margin: 0 64px 40px 0;
   }
   .technology__tech:first-child {
-    margin-left: auto;
+    margin-left: 40px;
   }
   .technology__tech:last-child {
-    margin-right: auto;
+    margin-right: 40px;
   }
 }

@@ -12,6 +12,6 @@
 @media screen and (max-width: 768px) {
   .for-clients__text {
     max-width: 688px;
-    margin: 16px auto 0 auto;
+    margin: 16px 40px 0 40px;
   }
 }

@@ -17,6 +17,6 @@
 @media screen and (max-width: 768px) {
   .serch-result__news {
     max-width: 192px;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 3;
   }
 }
