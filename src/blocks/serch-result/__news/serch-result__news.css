@@ -1,5 +1,4 @@
 .serch-result__news {
-  /* text-overflow: ellipsis; */
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;  
@@ -18,5 +17,12 @@
   .serch-result__news {
     max-width: 192px;
     -webkit-line-clamp: 3;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .serch-result__news {
+    max-width: 256px;
+    -webkit-line-clamp: 4;
   }
 }

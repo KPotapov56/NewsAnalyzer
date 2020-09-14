@@ -5,7 +5,7 @@
   font-size: 40px;
   line-height: 46px;
   color: #1A1B22;
-  margin: 80px auto 64px 104px;
+  margin: 80px auto 64px 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -13,5 +13,12 @@
     font-size: 30px;
     line-height: 34px;
     margin: 40px auto 32px 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .serch-result__title {
+    max-width: 288px;
+    margin: 32px auto 16px 16px;
   }
 }

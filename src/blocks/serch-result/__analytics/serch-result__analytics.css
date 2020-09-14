@@ -17,3 +17,9 @@
     margin: 48px 66px 34px auto;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .serch-result__analytics {
+    margin: 0 auto 36px 16px;
+  }
+}

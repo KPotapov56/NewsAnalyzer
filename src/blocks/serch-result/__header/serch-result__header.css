@@ -7,3 +7,9 @@
   display: flex;
   flex-direction: row;
 }
+
+@media screen and (max-width: 500px) {
+  .serch-result__header {
+    flex-direction: column;
+  }
+}

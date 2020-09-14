@@ -9,3 +9,9 @@
     height: 150px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .serch-result__image {
+    height: 196px;
+  }
+}

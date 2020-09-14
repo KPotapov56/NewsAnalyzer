@@ -16,3 +16,14 @@
     max-width: 192px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .serch-result__subtitle {
+    line-height: 26px;
+    max-width: 256px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }
+}

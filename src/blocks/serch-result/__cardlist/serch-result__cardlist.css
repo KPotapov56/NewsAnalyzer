@@ -12,3 +12,9 @@
     grid-gap: 8px 8px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .serch-result__cardlist {
+    grid-template-columns: repeat(auto-fill, 288px);
+  }
+}

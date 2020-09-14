@@ -1,4 +1,4 @@
-.serch-result__card {  
+.serch-result__card {
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -12,5 +12,24 @@
   .serch-result__card {
     max-width: 224px;
     height: 420px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .serch-result__card {
+    max-width: 288px;
+    height: 446px;
+  }
+
+  .serch-result__card:nth-child(4) {
+    display: none;
+  }
+
+  .serch-result__card:nth-child(5) {
+    display: none;
+  }
+
+  .serch-result__card:nth-child(6) {
+    display: none;
   }
 }
