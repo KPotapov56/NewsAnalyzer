@@ -1,7 +1,8 @@
 .header__menu {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
   margin: 30px 101px 0 auto;
+  padding: 0;
 }
 
 @media screen and (max-width: 768px) {

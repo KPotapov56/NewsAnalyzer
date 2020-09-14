@@ -17,3 +17,10 @@
     margin-bottom: 16px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .serch__title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}

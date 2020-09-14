@@ -9,3 +9,9 @@
     margin: 104px auto 24px auto;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .serch__container {
+    margin: 86px 16px 64px 16px;
+  }
+}

@@ -2,18 +2,27 @@
   position: relative;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 608px;
   height: 64px;
-  background-color: #ffffff;
-  border-radius: 45px;
-  flex-direction: row;
+  /* background-color: #ffffff; */
+  /* border-radius: 45px; */
   margin: 0 auto 80px auto;
 }
 
 @media screen and (max-width: 768px) {
-	.serch__searchbar {
+  .serch__searchbar {
     max-width: 452px;
     height: 56px;
     margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .serch__searchbar {
+    max-width: 288px;
+    margin-bottom: 32px;
+    flex-direction: column;
+    height: 100%;
   }
 }
