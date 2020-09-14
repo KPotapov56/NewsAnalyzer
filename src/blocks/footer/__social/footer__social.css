@@ -11,3 +11,9 @@
     margin-right: 22px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .footer__social {
+    margin: 65px 18px auto auto;
+  }
+}
