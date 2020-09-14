@@ -1,5 +1,5 @@
 .header__link {
-  text-decoration:none;
+  text-decoration: none;
   display: flex;
   flex-wrap: wrap;
   font-family: roboto;
@@ -8,19 +8,26 @@
   font-size: 18px;
   line-height: 24px;
   color: #B6BCBF;
-  margin-left: 0;
+  margin-left: 34px;
   padding-bottom: 23px;
 }
 
-.header__link:first-child {
-  margin-right: 34px;
+.header__link:last-child {
+  margin-right: 0;
 }
 
 .header__link:hover {
   border-bottom: 3px solid #FFFFFF;
 }
 
-.header__link.active {  
+.header__link.active {
   color: #FFFFFF;
   border-bottom: 3px solid #FFFFFF;
+}
+
+@media screen and (max-width: 500px) {
+  .header__link {
+    font-size: 16px;
+    padding-bottom: 13px;
+  }
 }

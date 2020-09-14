@@ -12,5 +12,6 @@
   margin: 0 auto;
   background-image: url(/src/images/georgia-de-lotz-unsplash.png);  
   background-size: cover;
+  background-position: center;
   max-width: 1440px;
 }
