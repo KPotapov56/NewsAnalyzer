@@ -24,3 +24,10 @@
     margin-right: 0;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .history__card {
+    width: 288px;
+    height: 264px;
+  }
+}

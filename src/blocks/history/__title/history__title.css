@@ -16,3 +16,11 @@
     max-width: 336px;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .history__title {
+    line-height: 40px;
+    max-width: 288px;
+    margin: 0 auto;
+  }
+}

@@ -16,3 +16,10 @@
     margin: 40px auto 40px 40px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .technology__title {
+    line-height: 40px;
+    margin: 32px 16px 40px 16px;
+  }
+}

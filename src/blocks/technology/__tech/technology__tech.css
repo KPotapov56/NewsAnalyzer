@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 120px;
   height: 153px;
-  margin: 93px 40px 88px 0;
+  margin: 93px 20px 88px 20px;
 }
 
 .technology__tech:last-child {
@@ -16,12 +16,27 @@
 
 @media screen and (max-width: 1280px) {
   .technology__tech {
-    margin: 0 64px 40px 0;
+    margin: 0 32px 40px 32px;
   }
+
   .technology__tech:first-child {
     margin-left: 40px;
   }
+
   .technology__tech:last-child {
     margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .technology__tech {
+    margin: 0 20px;
+  }
+  .technology__tech:first-child {
+    margin-left: 20px;
+  }
+
+  .technology__tech:last-child {
+    margin-right: 20px;
   }
 }

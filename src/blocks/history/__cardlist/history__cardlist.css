@@ -10,3 +10,9 @@
     margin: 40px 0 0 32px;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .history__cardlist {
+    margin: 16px 0 0 16px;
+  }
+}

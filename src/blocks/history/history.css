@@ -13,6 +13,7 @@
 @import url('./__page-control/history__page-control.css');
 @import url('./__slider-control-left/history__slider-control-left.css');
 @import url('./__slider-control-right/history__slider-control-right.css');
+@import url('./__link-to-github/history__link-to-github.css');
 
 .history {
   position: relative;

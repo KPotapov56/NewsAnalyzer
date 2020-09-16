@@ -11,3 +11,9 @@
   text-decoration: none;
   margin: 0 0 0 auto;
 }
+
+@media screen and (max-width: 390px) {
+  .history__link {
+    display: none;
+  }
+}

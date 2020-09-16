@@ -1,0 +1,22 @@
+.history__link-to-github {
+  text-decoration: none;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+  border: 1px solid #1A1B22;
+  box-sizing: border-box;
+  border-radius: 80px;
+  padding: 15px 69px;
+  display: none;
+}
+
+@media screen and (max-width: 390px) {
+  .history__link-to-github {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 49px auto;
+  }
+}

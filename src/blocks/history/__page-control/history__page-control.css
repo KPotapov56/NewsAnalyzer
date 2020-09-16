@@ -1,3 +1,9 @@
 .history__page-control {
   margin: 48px auto 34px auto;
 }
+
+@media screen and (max-width: 390px) {
+  .history__page-control {
+    margin: 16px auto 24px auto;
+  }
+}

@@ -15,3 +15,9 @@
     margin: 16px auto 0 40px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .for-clients__title {
+    margin-left: 16px;
+  }
+}

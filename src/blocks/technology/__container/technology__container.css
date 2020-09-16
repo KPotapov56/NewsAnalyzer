@@ -1,5 +1,12 @@
 .technology__container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: 0;
+}
+
+@media screen and (max-width: 390px) {
+  .technology__container {
+    margin-bottom: 38px;
+  }
 }
