@@ -6,13 +6,20 @@
 }
 
 @media screen and (max-width: 1024px) {
-	.about-author__description {
+  .about-author__description {
     margin: auto 104px auto auto;
   }
 }
 
 @media screen and (max-width: 768px) {
-	.about-author__description {
+  .about-author__description {
     margin: auto 40px auto auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .about-author__description {
+    margin: 0 16px;
+    max-width: 100%;
   }
 }
