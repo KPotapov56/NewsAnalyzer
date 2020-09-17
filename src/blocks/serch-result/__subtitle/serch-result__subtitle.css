@@ -13,7 +13,8 @@
   .serch-result__subtitle {
     font-size: 22px;
     line-height: 24px;
-    max-width: 192px;
+    /* max-width: 192px; */
+    margin: 0 auto 0px 16px;
   }
 }
 
