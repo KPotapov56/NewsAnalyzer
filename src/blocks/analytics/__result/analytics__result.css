@@ -16,7 +16,19 @@
   .analytics__result {
     margin-left: 40px;
   }
+
   .analytics__result:last-child {
     margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .analytics__result {
+    margin-left: 16px;
+  
+  }
+
+  .analytics__result:last-child {
+    margin-bottom: 24px;
   }
 }

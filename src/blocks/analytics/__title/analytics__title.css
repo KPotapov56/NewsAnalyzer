@@ -10,6 +10,15 @@
 
 @media screen and (max-width: 768px) {
   .analytics__title {
-    margin: 64px auto 24px 40px; 
+    margin: 64px auto 24px 40px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .analytics__title {
+    font-size: 30px;
+    line-height: 34px;
+    max-width: 288px;
+    margin: 16px auto 16px 16px;
   }
 }

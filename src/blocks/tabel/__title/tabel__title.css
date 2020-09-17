@@ -13,3 +13,11 @@
     margin: 40px auto 0 40px;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .tabel__title {
+    font-size: 22px;
+    max-width: 288px;
+    margin: 24px auto 0 16px;
+  }
+}

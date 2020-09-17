@@ -14,3 +14,9 @@
     margin: 32px auto 0 40px;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .analytics__current-page {
+    display: none;
+  }
+}

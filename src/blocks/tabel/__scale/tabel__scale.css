@@ -20,3 +20,9 @@
     margin-top: 0;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .tabel__scale {
+    display: none;
+  }
+}
