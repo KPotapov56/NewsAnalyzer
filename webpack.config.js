@@ -5,6 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const isDev = process.env.NODE_ENV === 'development';
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -83,5 +84,13 @@ module.exports = {
       canPrint: true
     }),
     new WebpackMd5Hash(),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: './src/images',
+          to: './images',
+        }
+      ],
+    }),
   ]
 };
