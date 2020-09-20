@@ -14,6 +14,6 @@
 
 @media screen and (max-width: 500px) {
   .footer__social {
-    margin: 65px 18px auto auto;
+    margin: 65px 18px -80px auto;
   }
 }

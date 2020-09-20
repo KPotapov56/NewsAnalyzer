@@ -4,6 +4,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const isDev = process.env.NODE_ENV === 'development';
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -13,7 +15,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].[chunkhash].js'
+    filename: './js/[name].[chunkhash].js'
   },
   module: {
     rules: [{
@@ -23,7 +25,21 @@ module.exports = {
     },
     {
       test: /\.css$/i,
-      use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader']
+      use: [
+        isDev ? 'style-loader' : {
+          loader: MiniCssExtractPlugin.loader,
+          options: {
+            publicPath: '../'
+          }
+        },
+        {
+          loader: 'css-loader',
+          options: {
+            importLoaders: 2
+          }
+        },
+        'postcss-loader'
+      ]
     },
     {
       test: /\.(woff|woff2|ttf)$/,
@@ -57,7 +73,7 @@ module.exports = {
       filename: 'statistics.html'
     }),
     new MiniCssExtractPlugin({
-      filename: '[name].[contenthash].css'
+      filename: './css/[name].[contenthash].css'
     }),
     new OptimizeCssAssetsPlugin({
       assetNameRegExp: /\.css$/g,
@@ -68,5 +84,13 @@ module.exports = {
       canPrint: true
     }),
     new WebpackMd5Hash(),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: './src/images',
+          to: './images',
+        }
+      ],
+    }),
   ]
 };
