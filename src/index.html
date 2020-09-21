@@ -25,9 +25,9 @@
         прошедшую неделю.</h2>
     </div>
 
-    <form class="serch__searchbar">
-      <input type="text" name="input" class="search__input" placeholder="Введите тему новости" required="required">
-      <button type="submit" class="search__button">Искать</button>
+    <form class="serch__searchbar" name="searchbar">
+      <input type="search" name="input" class="search__input" placeholder="Введите тему новости" required="required" maxlength="30" minlength="2">
+      <button type="submit" name="button" class="search__button" disabled="disabled">Искать</button>
     </form>
   </article>
   <!-- <article class="nothing-found">
