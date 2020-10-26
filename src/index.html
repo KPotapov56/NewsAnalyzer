@@ -26,20 +26,22 @@
     </div>
 
     <form class="serch__searchbar" name="searchbar">
-      <input type="search" name="input" class="search__input" placeholder="Введите тему новости" required="required" maxlength="30" minlength="2">
+      <input type="search" id="search" name="input" class="search__input" placeholder="Введите тему новости" required="required" maxlength="30" minlength="2">
       <button type="submit" name="button" class="search__button" disabled="disabled">Искать</button>
+      <span id="search-error" class="error"></span>
     </form>
+    
   </article>
-  <!-- <article class="nothing-found">
+  <article class="nothing-found hiden">
     <img src="<%=require('./images/not-found_v1.svg')%>" alt="ничего не найдено" class="nothing-found__image">
     <h1 class="nothing-found__title">Ничего не найдено</h1>
     <h2 class="nothing-found__subtitle">К сожалению по вашему запросу<br /> ничего не найдено.</h2>
   </article>
-  <article class="serch-news">
+  <article class="serch-news hiden">
     <img src="<%=require('./images/Ellipse.png')%>" alt="идет поиск..." class="serch-news__loader">
     <p class="serch-news__text">Идет поиск новостей...</p>
   </article>
-  <article class="serch-result">
+  <!-- <article class="serch-result">
     <div class="serch-result__header">
       <h1 class="serch-result__title">Результаты поиска</h1>
       <a href="statistics.html" class="serch-result__analytics">Посмотреть аналитику &#62;</a>

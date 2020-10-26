@@ -1,0 +1,18 @@
+.error {
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  top: 70px;
+  left: 22px;
+}
+
+@media screen and (max-width: 500px) {
+  .error {
+    top: 130px;
+    left: 12px;
+  }
+}
