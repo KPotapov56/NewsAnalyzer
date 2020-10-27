@@ -6,7 +6,7 @@ export default class Validation {
     this.wrongLength = errorMessages.wrongLength;
   }
 
-  checkInputValidity(input) { //Метод показывает ошибку, если инпуты не проходят валидацию. Если проходят — скрывает ошибку.
+  checkInputValidity(input) { 
     this.errorElem = document.getElementById(input.id + '-error');
 
     input.setCustomValidity("");
@@ -27,7 +27,7 @@ export default class Validation {
     return input.checkValidity();
   }
 
-  setSubmitButtonState(state) { //Состояние кнопки сабмита зависит от того, прошли все поля валидацию или нет
+  setSubmitButtonState(state) { 
     this.button = this.form.querySelector('.search__button');
 
     if (state) {
@@ -37,7 +37,7 @@ export default class Validation {
     }
   }
 
-  handlerInputForm(evt) { //Добавляет необходимые для валидации обработчики всем полям формы
+  handlerInputForm(evt) { 
     const currentForm = evt.currentTarget;
 
     this.checkInputValidity(evt.target);

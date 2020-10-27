@@ -10,4 +10,11 @@ export default class NewsApi {
     }
     return res.json();
   };
+
+  getNews(dateFrom, apiKey, query) {
+    return fetch(`${this.url}&from=${dateFrom}&apiKey=${apiKey}&q=${query}`, {
+      headers: this.headers
+    })
+      .then(this._getResponseData);
+  }
 }
