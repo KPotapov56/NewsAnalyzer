@@ -1,6 +1,7 @@
 import '../pages/index.css';
 import Validation from '../js/components/Validation.js';
 import NewsApi from '../js/modules/NewsApi.js';
+import DataStorage from '../js/modules/DataStorage.js';
 
 const errorMessages = {
   empty: 'Это обязательное поле',
@@ -13,7 +14,7 @@ const date = new Date(
   today.getMonth(),
   today.getDate() - 7
 );
-const dateFrom = date.toISOString().slice(0,10);
+const dateFrom = date.toISOString().slice(0, 10);
 const searchInput = document.querySelector('.search__input');
 const apiKey = '51841194b29c48c28c7a6afccd5b9d4b';
 const config = {
@@ -26,6 +27,7 @@ const config = {
 const newsApi = new NewsApi(config);
 const searchForm = document.forms.searchbar;
 const formValid = new Validation(searchForm, errorMessages);
+const dataStorage = new DataStorage();
 
 searchForm.addEventListener('input', (evt) => {
   formValid.handlerInputForm(evt);
@@ -34,6 +36,10 @@ searchForm.addEventListener('input', (evt) => {
 searchForm.addEventListener('submit', () => {
   event.preventDefault();
   console.log(dateFrom);
-  newsApi.getNews(dateFrom, apiKey, searchInput.value);
-  });
+  newsApi.getNews(dateFrom, apiKey, searchInput.value)
+    .then(res => {
+      dataStorage.setData(searchInput.value, "request");
+      dataStorage.setData(res, "news");
+    });
+});
 
