@@ -24,6 +24,7 @@ const config = {
   }
 };
 
+const cardList = document.querySelector('.serch-result__cardlist');
 const newsApi = new NewsApi(config);
 const searchForm = document.forms.searchbar;
 const formValid = new Validation(searchForm, errorMessages);
